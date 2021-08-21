@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(139, 250, 244);
+    margin: 10px 10px;
+    font-family: 'Jost', sans-serif;
+}
+section h3 {
+    text-align: center;
+    font-size: 30px;
+    color: purple;
+    border-top: 4px dashed rgb(7, 134, 134);
+    border-bottom: 4px dashed rgb(7, 134, 134);
+    padding-bottom: 5px;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+div{
+    margin: 10px;
+    background-color: purple;
+    border: 2px solid slateblue;
+    border-radius: 8px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    /* font-family: 'Jost', sans-serif; */
+    padding: 15px;  
+}
+.grow:hover {
+    margin: 10px;
+    background-color: #eb4559;
+    border: #f78259;
+    border-radius: 8px;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    color: goldenrod;
+    font-size: 3em;
+    padding: 15px;  
+    transition: 0.5s;
+}
+.shrink:hover {
+    margin: 10px;
+    background-color: #eb4559;
+    border: #f78259;
+    border-radius: 8px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    color: #ffeb99;
+    font-size: 2em;
+    padding: 15px;  
+    transition-duration: 2s;
+}
+.rotate:hover {
+    margin: 10px;
+    background-color: #eb4559;
+    border: #f78259;
+    border-radius: 8px;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    color: #ffeb99;
+    font-size: 2em;
+    padding: 15px;  
+    transition: all 3s;
+    transition-duration: ease-in-out;
+    transform: rotate(1080deg);
+}
+.fadeout:hover {
+    margin: 10px;
+    background: none;
+    border: #f78259;
+    border-radius: 8px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    color: #ffeb99;
+    font-size: 3em;
+    padding: 15px;
+    transition-delay: 0.2s;
+    transition-duration: 3s;  
+}
+div:hover{
+    cursor: pointer;
+}
